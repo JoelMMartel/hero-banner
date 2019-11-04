@@ -15,11 +15,6 @@ body {
 }
 
 .banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -27,16 +22,19 @@ body {
   max-height: 500px;
 }
 
-.banner img {
+.img-flex {
   width: 100%;
 }
 
 .content {
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
-  bottom: 1rem;
+  bottom: 2rem;
   max-width: 50em;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .headline {
