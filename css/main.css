@@ -23,6 +23,7 @@ body {
 }
 
 .img-flex {
+  display: block;
   width: 100%;
 }
 
@@ -34,7 +35,7 @@ body {
   max-width: 50em;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .headline {
