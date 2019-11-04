@@ -9,3 +9,35 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-height: 500px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.content {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.headline {
+  font-size: 4rem;
+  max-width: 50em
+}
+
+.subhead {
+  font-size: 2rem;
+  max-width: 50em;
+}
